@@ -7,5 +7,9 @@
     "test": "npm run test"
   },
   "author": "Samara Trindade",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  }
 }
