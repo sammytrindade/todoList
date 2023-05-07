@@ -13,7 +13,11 @@ function main(){
             //console.log(list);
         }
         else if(options == 2){
-            console.log(list);
+            //console.log(list);
+            console.log('Here are all the lists: ');
+            for (var i = 0; i < list.length; i++){
+                console.log (i+1 + ' - ' + list[i]);
+            }
         }
         else if(options == 3){
             break;
