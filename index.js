@@ -20,7 +20,23 @@ function main(){
             }
         }
         else if(options == 3){
+            var arrayList = list;
+            console.log(arrayList);
+            var newList = readline.question('Choose what the list is to be deleted: ', );
+            var indexToDelete = arrayList.indexOf(newList);
+
+            if(indexToDelete !== -1){
+                arrayList.splice(indexToDelete);
+                console.log(newList, "list deleted sucessfully");
+            } else{
+                console.log("List not found");
+            }
+        }
+        else if(options == 4){
             break;
+        }
+        else{
+            console.log('You need choose a valid option');
         }
     };
 };
